@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Italik'; 
+	src: url(/assets/fonts/DSEG7Classic-Italic-Custom2.woff2); 
+}
+
+@font-face {
+	font-family: 'Roboto'; 
+	src: url(/assets/fonts/RobotoMono-Regular.woff2); 
+}
+
+@font-face {
+	font-family: 'CodePro'; 
+	src: url(/assets/fonts/SourceCodePro-Medium.woff2); 
+}

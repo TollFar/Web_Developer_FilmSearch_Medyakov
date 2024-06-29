@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
+    color: var(--darck_text);
+}
+
+input#menu-hamburger {
+    display: none;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 111px;
+}
+
+.logo_img {
+    width: 342px;
+    height: 70px;
+    margin-top: 14px;
+    margin-left: 16.14vw;
+}
+
+ul {
+    display: flex;
+    margin-left: 121px;
+    margin-top: 46px;
+
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+li {
+    font-family: 'CodePro';
+    margin-left: 66px;
+    width: 84px;
+    height: 24px;
+}
+
+.theme {
+    position: absolute;
+    display: flex;
+    margin-left: 313px;
+
+}
+
+.theme_text {
+    font-family: 'CodePro';
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 46px;
+    width: 128px;
+    height: 24px;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+.dark-theme {
+    background-image: url(/assets/icon/darck_theme.svg);
+    width: 56px;
+height: 31px;
+margin-top: 43px;
+border-radius: 20px;
+border: none;
+margin-left: 20px;
+
+}
+
+@media screen and (max-width: 750px) {
+    .logo_img {
+    width: 217px;
+    height: 45px;
+    margin-top: 7px;
+    margin-left: 30px;
+    }
+    
+    nav {
+    height: 65px;
+    }
+
+    input#menu-hamburger ~ label {
+        display: block;
+
+    }
+
+    input#menu-hamburger:checked ~ label:before {
+        content: url(/assets/icon/close_black.svg);
+    }
+
+    input#menu-hamburger:checked ~ #menu-container {
+        display: block;
+    }
+
+    input#menu-hamburger:not(checked) ~ label:before {
+        content: url(/assets/icon/hambutger_black.svg);
+    }
+
+    input#menu-hamburger:not(checked) ~ #menu-container {
+        display: none;
+    }
+
+    .menu-container {
+        position: absolute;
+        margin-right: 10px;
+        display: block;
+        width: 22px;
+        height: 14px;
+        top: 26px;
+        right: 3.33vw;
+    }
+
+
+}
