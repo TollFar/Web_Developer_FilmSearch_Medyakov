@@ -20,7 +20,24 @@ nav {
     display: flex;
     width: 100%;
     height: 111px;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    align-self: normal;
+
+}
+
+
+nav li {
+    margin-right: 3.4375vw;
+}
+
 
 .logo_img {
     width: 342px;
@@ -31,51 +48,56 @@ nav {
 
 ul {
     display: flex;
-    margin-left: 121px;
+    margin-right: 323px;
     margin-top: 46px;
-
+ 
     font-size: 20px;
     font-weight: 600;
 
 }
 
+li :not(:last-child) {
+    margin-left: 7.8vw;
+}
+
 li {
     font-family: 'CodePro';
-    margin-left: 66px;
+    
     width: 84px;
     height: 24px;
 }
 
+
 .theme {
+    
     position: absolute;
     display: flex;
-    margin-left: 313px;
-
 }
 
 .theme_text {
     font-family: 'CodePro';
     font-size: 20px;
     font-weight: 600;
-    margin-top: 46px;
+    margin-top: 0;
     width: 128px;
     height: 24px;
     margin-right: 20px;
     white-space: nowrap;
+
 }
 
 .dark-theme {
     background-image: url(/assets/icon/darck_theme.svg);
     width: 56px;
-height: 31px;
-margin-top: 43px;
-border-radius: 20px;
-border: none;
-margin-left: 20px;
+    height: 31px;
+
+    border-radius: 20px;
+    border: none;
+
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1050px) {
     .logo_img {
     width: 217px;
     height: 45px;
