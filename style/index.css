@@ -31,47 +31,47 @@ margin: 0;
 
 /*Block-folms-gallery*/
 
+.filmBlock {
+    display: flex;
+    width: 100%;
+    height: 706px;
+    margin: 162px 103px 162px 103px;
+}
+
 .FilmsCarousel {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 50px;
-    font-family: 'Roboto', sans-serif;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Roboto';
     margin-left: 100px;
-
 }
 
 .card {
     width: 18.6458vw;
     height: 26.0417vw;
-    overflow: hidden;
+
     cursor: pointer;
     position: relative;
-
 }
 
 .linear-gradient {
-
+    position: absolute;
+    z-index: 1;
     height: 500px;
     width: 100%;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 40%);
-  }
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0) 30%);
+}
 
 .imgCard {
     position: absolute;
     object-fit: cover;
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
-  }
-.imgCard::after {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 40%);
+
 }
 
-
-  .reiting {
+.rating {
+    display: inline-block;
     position: absolute;
     inset: 14px auto auto 14px;
     margin: 0;
@@ -80,18 +80,21 @@ margin: 0;
     color: var(--white_text);
     background-color: #3BB33B;
     border-radius: 3px;
-    background-size: 53px 31px;
-  }
+    width: 51px;
+    height: 31px;
+    text-align: center;
+}
 
-  .FilmName {
+.FilmName {  
+    z-index: 2;
     position: absolute;
     max-width: 80%;
-    inset: 300px auto auto 30px;
+    inset: 370px auto auto 30px;
     color: var(--white_text);
     font-weight: 600;
     font-family: 'CodePro';
     font-size: 29.52px;
-  }
+}
 
 
 
