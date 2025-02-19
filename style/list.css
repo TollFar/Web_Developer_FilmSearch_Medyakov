@@ -1,0 +1,208 @@
+.main {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+select {
+    background-color: #F2F2F2;
+}
+
+.search-parameters {
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.main-search-parameters {
+    display: flex;
+    flex-direction: column;
+}
+.button-right {
+    border: none;
+    background-color: white;
+}
+
+.button-left {
+    border: none;
+    background-color: white;
+}
+
+
+@media (max-width: 360px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .linear-gradient-list {
+        display: none;
+    }
+
+    .poster-close {
+        display: none;
+    }
+
+    .genre-parameter {
+        width: 83.33vw;
+        height: 3.35vh;
+        margin: 5.78vh 0 0 14.4vw;
+    }
+
+    .rating {
+        width: 83.33vw;
+        height: 3.35vh;
+        margin: 17.69vh 0 0 14.4vw;
+    }
+
+    .country {
+        width: 83.33vw;
+        height: 3.35vh;
+        margin: 17.69vh 0 0 14.4vw;
+    }
+
+    .year {
+        width: 83.33vw;
+        height: 3.35vh;
+        margin: 17.69vh 0 0 14.4vw;
+    }
+
+    select {
+        width: 83.33vw;
+        height: 7.86vh;
+        border-radius: 0.93;
+        margin: 4.05vh 0 0 -6.39vw;
+    }
+
+    .main-search-parameters {
+        width: 100vw;
+    }
+
+    .main-films-count-list {
+        display: none;
+    }
+
+    .main-film-catalog {
+        width: 100vw;
+        margin: 23.93vh 0 0 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .main-films-title {
+        width: 41.94vw;
+        height: 4.97vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 4.16vh 0 0 8.06vw;
+    }
+}
+
+@media (min-width: 361px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .linear-gradient-list {
+        position: absolute;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)2%);
+        width: 24.9vw;
+        height: 190.56vh;
+    }
+
+    .genre-parameter {
+        width: 15.63vw;
+        height: 12.22vh;
+        margin: 10.37vh 2.5vw 0 4.69vw;
+    }
+
+    .rating {
+        width: 15.63vw;
+        height: 12.22vh;
+        margin: 4.63vh 2.5vw 0 4.69vw;
+    }
+
+    .country {
+        width: 15.63vw;
+        height: 12.22vh;
+        margin: 4.63vh 2.5vw 0 4.69vw;
+    }
+
+    .year {
+        width: 15.63vw;
+        height: 12.22vh;
+        margin: 4.63vh 2.5vw 0 4.69vw;
+    }
+
+    select {
+        width: 15.63vw;
+        height: 6.29vh;
+        border-radius: 0.93;
+    }
+
+    .main-search-parameters {
+        width: 24.9vw;
+        height: 188.7vh;
+        margin: -27vh 0 0 1.3vw;
+    }
+
+
+    .main-films {
+        display: flex;
+        justify-content: row;
+
+    }
+
+    .main-films-count-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 9.11vw;
+        height: 2.69vh;
+    }
+
+    .main-films-count-list li {
+        list-style: none;
+        text-decoration: none;
+    }
+    li.active {
+        font-weight:bolder;
+
+    }
+
+    .main-film-catalog {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 58.02vw;
+        margin: 0 0 0 1.3vw;
+    }
+
+    .film-catalog {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 58.02vw;
+        margin: 0 0 0 1.3vw;
+    }
+
+    .main-films-title {
+        width: 58.02vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10.28vh 0 8.61vh 27.26vw;
+
+    }
+
+    .left,
+    .right {
+        display: none;
+    }
+
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="title" content="Что сегодня посмотреть? | Главная">
+    <meta name="description"
+        content="Что сегодня посмотреть? - Портал для поиска кино и сериалов, просмотре рейтинга по версии кинопоиска.">
+    <meta name="keywords" content="фильмы, сериалы, смотерть, кино, топ, кинопоиск">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="ru">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <meta name="robots" content="index,follow">
+
+    <title>filmSearch</title>
+
+    <link rel="stylesheet" type="text/css" href="/style/fonts.css" />
+ 
+    <link rel="stylesheet" type="text/css" href="/style/common.css" />
+    <link rel="stylesheet" type="text/css" href="/style/index.css" />
+    <link rel="stylesheet" type="text/css" href="/style/list.css"/>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo">
+                <img src="/assets/logo.png" alt=" " />
+            </div>
+            <div id="menu-container-full">
+                <input type="checkbox" id="menu-hamburger">
+                <label for="menu-hamburger"></label>
+                <div id="menu-container">
+                    <ul>
+                        <li><a href="/movie_list/movie_list.html" class="font-menu">Фильмы</a>
+                        <li><a href="/series_list/series_list.html" class="font-menu">Сериалы</a>
+                        <li>
+                            <div class="topic">
+                                <div class="font-menu titleThemeToggle">Темная тема</div>
+                                <button class="themeToggle"><img class="slider-topic" src="/assets/topic_day.svg"
+                                        alt="topic_day" /></button>
+                            </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="imageTop">
+            <div class="imageTop-text">
+                <h1 class="font-top">Что сегодня<br/>посмотреть?</h1>
+            </div>
+            <div class="imageTop-image">
+                <img src="/assets/imageTop.png" alt=" " />
+                <div class="linear-gradient"></div>
+            </div>
+        </div>
+
+        <div class="poster-catalog">
+            <div class="left">
+                <button class="button-left"><img src="/assets/left_day.svg" alt=" " /></button>
+            </div>
+            
+                <div class="poster-first">
+                    <div class="poster">
+                        <div class="poster-image poster-image-first">
+                            <img src="/assets/film1.png" alt=" " />
+                            <div class="poster-rating poster-rating-first">
+                                <p class="font-poster-title ">9.8</p>
+                            </div>
+                            <div class="linear-gradient-poster"></div>
+                        </div>
+                        <div class="poster-title">
+                            <p class="font-poster-title poster-title-first">Проклятое королевство</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="poster-second">
+                    <div class="poster">
+                        <div class="poster-image poster-image-second">
+                            <img src="/assets/film2.png" alt=" " />
+                            <div class="poster-rating poster-rating-second">
+                                <p class="font-poster-title ">9.7</p>
+                            </div>
+                            <div class="linear-gradient-poster"></div>
+                        </div>
+                        <div class="poster-title">
+                            <p class="font-poster-title poster-title-second">Код красный</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="poster-third">
+                    <div class="poster">
+                        <div class="poster-image poster-image-third">
+                            <img src="/assets/film3.png" alt=" " />
+                            <div class="poster-rating poster-rating-third">
+                                <p class="font-poster-title ">9.6</p>
+                            </div>
+                            <div class="linear-gradient-poster"></div>
+                        </div>
+                        <div class="poster-title">
+                            <p class="font-poster-title poster-title-third">Путеводная звезда</p>
+                        </div>
+                    </div>
+                </div>
+            
+            <div class="right">
+                <button class="button-right"><img src="/assets/right_day_activ.svg" alt=" " /></button>
+            </div>
+        </div>
+        <div class="search">
+            <div class="search-image">
+                <img src="/assets/imageTop.png" alt=" ">
+                <div class="linear-gradient-search"></div>
+                <div class="search-form">
+                    <form class="form-search" onsubmit="return false">
+                        <div class="search-form-image"><img src="/assets/glass.svg" alt=" " /></div>
+                        <input class="search-input font-search-input " type="text" name="query"
+                            placeholder="Что сегодня посмотреть?">
+                        <button class="font-search-buttom search-form-buttom">Найти</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="basic">
+            <div class="basic-image">
+                <img src="/assets/imageBottom.png" alt=" ">
+                <div class="linear-gradient-basic"></div>
+                <div class="basic-title">
+                    <h1 class="font-basic-title">Давайте вместе откроем мир киноискусства!</h1>
+                </div>
+                <div class="basic-text">
+                    <p class="font-basic-text">«Что сегодня посмотреть?» – ваш надежный гид в мире кино. Ищите фильмы и
+                        сериалы по названию,
+                        жанру, году выпуска или рейтингу, чтобы выбрать идеальное кино для любого настроения.
+                        Погрузитесь в подробную информацию о каждом фильме, посмотрите трейлеры и проведите отличный
+                        вечер в компании интересного кино.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <p class="font-footer">©️ 2024 Иван Иванов</p>
+        <div class="social">
+            <ul class="links">
+                <li class="telegram"><a href="https://t.me/"></a></li>
+                <li class="vk"><a href="https://vk.com/"></a></li>
+                <li class="dzen"><a href="https://dzen.ru/"></a></li>
+                <li class="youtube"><a href="https://youtu.be/"><img src="/assets/youtube.svg" alt=" " /></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/script/jquery-3.7.1.js"></script>
+    <script src="/script/common.js"></script>
+    <script src="/script/script_index.js"></script>
+</body>
+
+</html>

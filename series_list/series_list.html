@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="title" content="Что сегодня посмотреть? | Главная">
+    <meta name="description"
+        content="Что сегодня посмотреть? - Портал для поиска кино и сериалов, просмотре рейтинга по версии кинопоиска.">
+    <meta name="keywords" content="фильмы, сериалы, смотерть, кино, топ, кинопоиск">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="ru">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <meta name="robots" content="index,follow">
+
+    <title>filmSearch</title>
+
+    <link rel="stylesheet" type="text/css" href="/style/fonts.css"/>
+ 
+    <link rel="stylesheet" type="text/css" href="/style/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/style/index.css"/>
+    <link rel="stylesheet" type="text/css" href="/style/list.css"/>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo">
+                <img src="/assets/logo.png" alt=" " />
+            </div>
+            <div id="menu-container-full">
+                <input type="checkbox" id="menu-hamburger">
+                <label for="menu-hamburger"></label>
+                <div id="menu-container">
+                    <ul>
+                        <li><a href="/movie_list/movie_list.html" class="font-menu">Фильмы</a>
+                        <li><a href="/series_list/series_list.html" class="font-menu">Сериалы</a>
+                        <li>
+                            <div class="topic">
+                                <div class="font-menu titleThemeToggle">Темная тема</div>
+                                <button class="themeToggle"><img class="slider-topic" src="/assets/topic_day.svg"
+                                        alt="topic_day" /></button>
+                            </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <template id="posterTemplate">
+        <div class="poster-image">
+            <img src alt />
+            <div id="poster-rating" class="poster-rating">
+                <p class="font-poster-title"></p>
+            </div>
+            <div class="linear-gradient-poster"></div>
+        </div>
+        <div class="poster-title">
+            <p class="font-poster-title"></p>
+        </div>
+    </template>
+    <main>
+        <div class="search">
+            <div class="search-image">
+                <img src="/assets/imageTop.png" alt=" ">
+                <div class="linear-gradient-search"></div>
+                <div class="search-form">
+                    <form class="form-search" onsubmit="return false">
+                        <div class="search-form-image"><img src="/assets/glass.svg" alt=" " /></div>
+                        <input class="search-input font-search-input " type="text" name="query" placeholder="Что сегодня посмотреть?">
+                        <button class="font-search-buttom search-form-buttom">Найти</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <div class="main-films-title">
+                <h1 class="font-main-films-title">Сериалы</h1>
+                <ul id="main-films-count-list" class="main-films-count-list"></ul>
+            </div>
+            <div class="main-films">
+                <div class="main-search-parameters">
+                    <div class="linear-gradient-list"></div>
+                    <div class="search-parameters">
+                        <div class="genre-parameter">
+                            <form id="gerdeFilter">
+                                <label for="genreId" class="font-search-parameters">Жанр</label>
+                                <select id="genreId" name="genre" form="gerdeFilter">
+                                    <option class="font-select-option" value="allgenre" selected>Все жанры</option>
+                                    <option class="font-select-option" value="action">Боевик</option>
+                                    <option class="font-select-option" value="comedy">Комедия</option>
+                                    <option class="font-select-option" value="drama">Драма</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="rating">
+                            <form id="ratingFilter">
+                                <label class="font-search-parameters">Рейтинг</label>
+                                <select id="ratingId" name="rating" for="ratingFilter">
+                                    <option class="font-select-option" value="allrating" selected>Выбрать рейтинг</option>
+                                    <option class="font-select-option" value="9">9.0</option>
+                                    <option class="font-select-option" value="8-">8.0</option>
+                                    <option class="font-select-option" value="7">7.0</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="country">
+                            <form id="countryFilter">
+                                <label for="countryId" class="font-search-parameters">Страна</label>
+                                <select id="countryId" name="country" form="countryFilter">
+                                    <option class="font-select-option" value="allcountry" selected>Все страны</option>
+                                    <option class="font-select-option" value="Россия">Россия</option>
+                                    <option class="font-select-option" value="США">США</option>
+                                    <option class="font-select-option" value="Корея">Корея</option>
+                                </select>
+                            </form>
+                        </div>
+                        <div class="year">
+                            <form id="yearFilter">
+                                <label for="yearId" class="font-search-parameters">Год выпуска</label>
+                                <select id="yearId" name="year" form="yearFilter">
+                                    <option class="font-select-option" value="allyear" selected>Все годы</option>
+                                    <option class="font-select-option" value="2025">2025</option>
+                                    <option class="font-select-option" value="2024">2024</option>
+                                    <option class="font-select-option" value="2023">2023</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-film-catalog">
+                    <div class="left">
+                        <button class="button-left"><img src="/assets/left_day.svg" alt=" " /></button>
+                    </div>
+                    <div id="film-catalog" class="film-catalog"></div>
+                    <div class="right">
+                        <button class="button-right"><img src="/assets/right_day_activ.svg"
+                                alt=" " /></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="font-footer">©️ 2024 Иван Иванов</p>
+        <div class="social">
+            <ul class="links">
+                <li class="telegram"><a href="https://t.me/"></a></li>
+                <li class="vk"><a href="https://vk.com/"></a></li>
+                <li class="dzen"><a href="https://dzen.ru/"></a></li>
+                <li class="youtube"><a href="https://youtu.be/"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/script/jquery-3.7.1.js"></script>
+    <script src="/script/common.js"></script>
+    <script src="/script/script_serial_list.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+.button-right {
+    border: none;
+    background-color: white;
+}
+
+.button-left {
+    border: none;
+    background-color: white;
+}
+
+/* main image top*/
+.imageTop {
+    display: flex;
+    width: 100vw;
+}
+
+.imageTop-text {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.imageTop-image img {
+    position: absolute;
+    overflow: hidden;
+    object-fit: cover;
+    display: block;
+}
+
+.linear-gradient {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/*basic image */
+.basic-image {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+}
+
+.basic-image img {
+    position: absolute;
+    display: block;
+    width: 100vw;
+}
+
+.basic-title {
+    position: relative;
+    color: white;
+}
+
+.basic-text {
+    position: relative;
+    color: white;
+}
+
+.linear-gradient-basic {
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    width: 100%;
+    height: 100%;
+}
+
+/*poster catalog*/
+.poster-catalog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+
+.footer {
+    background-color: black;
+}
+
+.font-footer {
+    color: white;
+}
+
+@media (max-width: 360px) {
+
+    /* main image top*/
+    .imageTop {
+        flex-direction: column-reverse;
+    }
+
+    .imageTop-text {
+        width: 71.94vw;
+        height: 10.17vh;
+        position: absolute;
+        margin: 45.09vh 19.72vw 8.32vh 8.33vw;
+        z-index: 1;
+    }
+
+    .imageTop-image {
+        width: 100vw;
+        height: 63.58vh;
+    }
+
+    .imageTop-image img {
+        width: 100vw;
+        height: 63.58vh;
+    }
+
+    .linear-gradient {
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 0)50%);
+    }
+
+    /*basic image */
+    .basic-image {
+        height: 67.51vh;
+    }
+
+    .basic-image img {
+        height: 67.51vh;
+        transform: scale(1.2);
+        object-position: -41.66vw -4.62vh;
+        object-fit: cover;
+    }
+
+    .basic-title {
+        width: 65.83vw;
+        height: 10.75vh;
+        margin: 5.09vh 0 0 8.06vw;
+    }
+
+    .basic-text {
+        width: 81.67vw;
+        height: 33.29vh;
+        margin: 2.31vh 0 0 8.6vw;
+    }
+
+    /*poster catalog*/
+    .poster-catalog {
+        margin: 9.25vh 0 9.98vh 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .poster-first {
+        display: flex;
+        flex-direction: column;
+        width: 73.11vw;
+        height: 42.5vh;
+    }
+
+    .poster-second,
+    .poster-third {
+        display: none;
+    }
+}
+
+@media (min-width: 361px) {
+
+    /* main image top*/
+    .imageTop {
+        flex-direction: row;
+    }
+
+    .imageTop-text {
+        background-color: black;
+        color: white;
+        width: 46.67vw;
+        height: 57.41vh;
+        justify-content: end;
+    }
+
+    .imageTop-image {
+        width: 53.33vw;
+        height: 57.41vh;
+    }
+
+    .imageTop-image img {
+        width: 53.33vw;
+        height: 57.41vh;
+    }
+
+    .linear-gradient {
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 5%, rgba(0, 0, 0, 0)50%);
+    }
+
+    /*basic image */
+
+
+    .basic-image {
+        height: 57.41vh;
+    }
+
+    .basic-image img {
+        height: 57.41vh;
+        object-fit: none;
+        object-position: 0 65%;
+        object-fit: cover;
+
+    }
+
+    .basic-title {
+        width: 36.41vw;
+        height: 12.04vh;
+        margin: 13.98vh 0 0 16.82vw;
+    }
+
+    .basic-text {
+        width: 47.92vw;
+        height: 14.81vh;
+        margin: 2.69vh 0 0 16.82vw;
+    }
+
+    /* poster catalog*/
+    .poster-catalog {
+        margin: 9.54vh 0 9.54vh 0;
+    }
+
+    .poster-first,
+    .poster-second,
+    .poster-third {
+        display: flex;
+        flex-direction: column;
+        width: 18.65vw;
+        height: 46.3vh;
+    }
+}

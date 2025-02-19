@@ -1,0 +1,405 @@
+.font-menu {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 1.85vh;
+  font-style: normal;
+  line-height: 2.24vh;
+}
+
+@media (max-width: 360px) {
+  .font-top {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 4.16vh;
+    font-style: normal;
+    line-height: 5.04vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-poster-title {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.51vh;
+    font-style: normal;
+    line-height: 3.04vh;
+  }
+
+  .font-poster-rating {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.74vh;
+    font-style: normal;
+    line-height: 2.11vh;
+  }
+
+
+  .font-search-buttom {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 1.5vh;
+    font-style: normal;
+    line-height: 1.82vh;
+  }
+
+  .font-search-input {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 1.5vh;
+    font-style: normal;
+    line-height: 1.82vh;
+  }
+
+  .font-basic-title {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 3.01vh;
+    font-style: normal;
+    line-height: 3.61vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-basic-text {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.08vh;
+    font-style: normal;
+    line-height: 2.81vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-footer {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.08vh;
+    font-style: normal;
+    line-height: 2.6vh;
+  }
+
+  .font-main-films-title {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 4.16vh;
+    font-style: normal;
+    line-height: 4.99vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-search-parameters {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.77vh;
+    font-style: normal;
+    line-height: 3.36vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-select-option {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 2.31vh;
+    font-style: normal;
+    line-height: 2.79vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-movie-about-film {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 3.23vh;
+    font-style: normal;
+    line-height: 3.88vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-movie-info {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.31vh;
+    font-style: normal;
+    line-height: 3.12vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-movie-info-title {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.08vh;
+    font-style: normal;
+    line-height: 2.81vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-trailer-title {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 3.24vh;
+    font-style: normal;
+    line-height: 3.88vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-movie-title {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 4.16vh;
+    font-style: normal;
+    line-height: 4.99vh;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 361px) {
+  .font-top {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 7.41vh;
+    font-style: normal;
+    line-height: 8.96vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-poster-title {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.73vh;
+    font-style: normal;
+    line-height: 3.31vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-poster-rating {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.9vh;
+    font-style: normal;
+    line-height: 2.3vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-search-buttom {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.22vh;
+    font-style: normal;
+    line-height: 2.69vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-search-input {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.22vh;
+    font-style: normal;
+    line-height: 2.69vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-basic-title {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 4.44vh;
+    font-style: normal;
+    line-height: 6vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-basic-text {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.22vh;
+    font-style: normal;
+    line-height: 3vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-footer {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 2.41vh;
+    font-style: normal;
+    line-height: 3.01vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-main-films-title {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 5.93vh;
+    font-style: normal;
+    line-height: 8vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-main-films-count-list {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.22vh;
+    font-style: normal;
+    line-height: 3.36vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-search-parameters {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.96vh;
+    font-style: normal;
+    line-height: 3.59vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-select-option {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 1.85vh;
+    font-style: normal;
+    line-height: 2.24vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-movie-about-film {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 3.33vh;
+    font-style: normal;
+    line-height: 4.5vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-movie-info {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.2vh;
+    font-style: normal;
+    line-height: 4.5vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-movie-info-title {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 2.2vh;
+    font-style: normal;
+    line-height: 4.5vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-trailer-title {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 3.33vh;
+    font-style: normal;
+    line-height: 4.5vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .font-movie-title {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: 5.93vh;
+    font-style: normal;
+    line-height: 8vh;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+.font-stills-film-title {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 3.33vh;
+  font-style: normal;
+}
+
+.font-reviews-film-title {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 3.33vh;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.font-reviews-text {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1.85vh;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.font-reviews-autor {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 2.22vh;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}

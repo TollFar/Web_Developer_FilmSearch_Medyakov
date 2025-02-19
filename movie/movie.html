@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="title" content="Что сегодня посмотреть? | Главная">
+    <meta name="description"
+        content="Что сегодня посмотреть? - Портал для поиска кино и сериалов, просмотре рейтинга по версии кинопоиска.">
+    <meta name="keywords" content="фильмы, сериалы, смотерть, кино, топ, кинопоиск">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="ru">
+    <meta name="viewport" content="width=device-width, initial-scale=0.8">
+    <meta name="robots" content="index,follow">
+
+    <title>filmSearch</title>
+
+    <link rel="stylesheet" type="text/css" href="/style/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="/style/movie.css"/>
+    <link rel="stylesheet" type="text/css" href="/style/common.css" />
+    <link rel="stylesheet" type="text/css" href="/style/index.css" />
+    <link rel="stylesheet" type="text/css" href="/style/list.css"/>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav>
+            <div class="logo">
+                <img src="/assets/logo.png" alt=" " />
+            </div>
+            <div id="menu-container-full">
+                <input type="checkbox" id="menu-hamburger">
+                <label for="menu-hamburger"></label>
+                <div id="menu-container">
+                    <ul>
+                        <li><a href="/movie_list/movie_list.html" class="font-menu">Фильмы</a>
+                        <li><a href="/series_list/series_list.html" class="font-menu">Сериалы</a>
+                        <li>
+                        <div class="topic">
+                            <div class="font-menu titleThemeToggle">Темная тема</div>
+                            <button class="themeToggle"><img class="slider-topic" src="/assets/topic_day.svg"
+                                        alt="topic_day" /></button>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="search">
+            <div class="search-image">
+                <img src="/assets/imageTop.png" alt=" ">
+                <div class="linear-gradient-search"></div>
+                <div class="search-form">
+                    <form class="form-search" onsubmit="return false">
+                        <div class="search-form-image"><img src="/assets/glass.svg" alt=" " /></div>
+                        <input class="search-input font-search-input " type="text" name="query"
+                            placeholder="Что сегодня посмотреть?">
+                        <button class="font-search-buttom search-form-buttom">Найти</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="movie">
+            <div class="movie-title">
+                <h1 class="font-movie-title">Проклятое<br/>королевство</h1>
+            </div>
+            <div class="info">
+                <div class="poster">
+                    <div class="poster-image">
+                        <img src="/assets/film1.png" alt=" " />
+                        <div class="poster-rating">
+                            <p class="font-poster-title">9.8</p>
+                        </div>
+                        <div class="linear-gradient-poster"></div>
+                    </div>
+                    <div class="poster-title">
+                    </div>
+                </div>
+                <div class="movie-info">
+                    <div class="movie-about-film">
+                        <p class="font-movie-about-film">О фильме</p>
+                    </div>
+                    <div class="genre">
+                        <div class="genre-title font-movie-info-title">Жанр</div>
+                        <div class="genre-info font-movie-info">Фэнтези, драма</div>
+                    </div>
+                    <div class="country">
+                        <div class="country-title font-movie-info-title">Страна производства</div>
+                        <div class="country-info font-movie-info">Великобритания</div>
+                    </div>
+                    <div class="actor">
+                        <div class="actor-title font-movie-info-title">Актёры</div>
+                        <div class="actor-info font-movie-info">Альберто Маркез, Наталия Ковальски, Леонардо Родригес,
+                            Изабелла Хартман
+                        </div>
+                    </div>
+                    <div class="directors">
+                        <div class="directors-title font-movie-info-title">Режиссёры</div>
+                        <div class="directors-info font-movie-info">Элиас Торнбридж</div>
+                    </div>
+                    <div class="release">
+                        <div class="release-title font-movie-info-title">Дата релиза</div>
+                        <div class="release-info font-movie-info">23 апреля 2023 года</div>
+                    </div>
+                    <div class="age">
+                        <div class="age-title font-movie-info-title">Возрастное ограничение</div>
+                        <div class="age-info font-movie-info">16+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="trailer">
+            <h1 class="font-trailer-title">Трейлер</h1>
+            <iframe src="https://www.youtube.com/watch?v=VcepKg4eSA4"></iframe>
+        </div>
+        <div class="stills-film">
+            <h1 class="font-stills-film-title">Кадры из фильма</h1>
+            <div class="stills">
+                <div class="stills-left">
+                    <img src="/assets/left_day.svg" alt=" " />
+                </div>
+                <div class="stills-calage">
+                    <div class="stills-image stills-first">
+                        <img src="/assets/movieImage1.png" alt=" " />
+                    </div>
+                    <div class="stills-image stills-second">
+                        <img src="/assets/movieImage2.png" alt=" " />
+                    </div>
+                </div>
+                <div class="stills-right">
+                    <img src="/assets/right_day.svg" alt=" " />
+                </div>
+            </div>
+        </div>
+        <div class="reviews-film">
+            <h1 class="font-reviews-film-title">Рецензии зрителей</h1>
+            <div class="reviews-catalog">
+                <div class="reviews">
+                    <div class="reviews-autor">
+                        <p class="font-reviews-autor">Ирина Глебова</p>
+                    </div>
+                    <div class="star">
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                    </div>
+                    <div class="reviews-text">
+                        <p class="font-reviews-text">Проклятое королевство — это фильм, который захватил мое сердце и
+                            не отпустит. Этот фильм, с его
+                            захватывающим сюжетом и отличными актерами, оставил у меня невероятное впечатление. Каждый
+                            кадр
+                            этого фильма наполнен эмоциями и драматизмом, что делает его идеальным для тех, кто любит
+                            киноискусство...</p>
+                    </div>
+                </div>
+                <div class="reviews">
+                    <div class="reviews-autor">
+                        <p class="font-reviews-autor">Мария Дубцова</p>
+                    </div>
+                    <div class="star">
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                        <img src="/assets/star.svg" alt="Звезда" />
+                    </div>
+                    <div class="reviews-text">
+                        <p class="font-reviews-text">Проклятое королевство — это фильм, который захватил мое сердце и
+                            не отпустит. Этот фильм, с его
+                            захватывающим сюжетом и отличными актерами, оставил у меня невероятное впечатление. Каждый
+                            кадр
+                            этого фильма наполнен эмоциями и драматизмом, что делает его идеальным для тех, кто любит
+                            киноискусство...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="font-footer">©️ 2024 Иван Иванов</p>
+        <div class="social">
+            <ul class="links">
+                <li class="telegram"><a href="https://t.me/"></a></li>
+                <li class="vk"><a href="https://vk.com/"></a></li>
+                <li class="dzen"><a href="https://dzen.ru/"></a></li>
+                <li class="youtube"><a href="https://youtu.be/"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="/script/jquery-3.7.1.js"></script>
+    <script src="/script/common.js"></script>
+    <script src="/script/script_movie.js"></script>
+</body>
+
+</html>

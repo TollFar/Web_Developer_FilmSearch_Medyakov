@@ -1,0 +1,534 @@
+.movie {
+    display: flex;
+    width: 100vw;
+}
+
+.country-title {
+    margin-left: -90px;
+}
+
+
+@media (max-width: 360px) {
+    .movie {
+        flex-direction: column;
+
+    }
+
+    .movie-about-film {
+        width: 38.33vw;
+        height: 3.93vh;
+        margin: 4.21vh 0 0 0;
+    }
+
+    .genre {
+        display: flex;
+        flex-direction: column;
+        margin: 5.2vh 0 0 0;
+    }
+
+    .genre-title {
+        display: flex;
+        align-items: center;
+        color: #A9A9A9;
+    }
+
+    .genre-info {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .country {
+        display: flex;
+        flex-direction: column;
+        margin: 2.31vh 0 0 0;
+    }
+
+    .country-title {
+        display: flex;
+        align-items: center;
+        color: #A9A9A9;
+    }
+
+    .country-info {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .actor {
+        display: flex;
+        flex-direction: column;
+        margin: 2.31vh 0 0 0;
+    }
+
+    .actor-title {
+        display: flex;
+        align-items: center;
+        color: #A9A9A9;
+    }
+
+    .actor-info {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .directors {
+        display: flex;
+        flex-direction: column;
+        margin: 2.31vh 0 0 0;
+    }
+
+    .directors-title {
+        display: flex;
+        align-items: center;
+        color: #A9A9A9;
+    }
+
+    .directors-info {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .release {
+        display: flex;
+        flex-direction: column;
+        margin: 2.31vh 0 0 0;
+    }
+
+    .release-title {
+        display: flex;
+        align-items: center;
+        color: #A9A9A9;
+    }
+
+    .release-info {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .age {
+        display: flex;
+        flex-direction: column;
+        margin: 2.31vh 0 0 0;
+    }
+
+    .age-title {
+        display: flex;
+        align-items: center;
+        color: #A9A9A9;
+    }
+
+    .age-info {
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+
+    .movie-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 8.06vw;
+    }
+
+    .trailer {
+        display: flex;
+        flex-direction: column;
+        margin: 8.79vh 0 0 8.06vw;
+    }
+
+    iframe {
+        width: 83.33vw;
+        height: 19.51vh;
+    }
+
+    video {
+        width: 83.33vw;
+        height: 19.51vh;
+        margin: 4.16vh 0 0 0;
+    }
+
+    .reviews-film {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin: 8.90vh 0 0 8.06vw;
+    }
+
+    .reviews-catalog {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 2.54vh 0 0 0;
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        width: 85.56vw;
+        background-color: #F2F2F2;
+        margin: 0 0 4.16vh 0;
+    }
+
+    .reviews-autor {
+        display: flex;
+        margin: 3.24vh 0 0 6.67vw;
+    }
+
+    .star {
+        display: flex;
+        justify-content: start;
+        width: 66.18vw;
+        height: 2.75vh;
+        margin: 2.27vh 0 0 6.67vw;
+    }
+
+    .star img {
+        width: 6.18vw;
+        height: 2.75vh;
+    }
+
+    .reviews-text {
+        display: flex;
+        width: 72.78vw;
+        margin: 1.9vh 0 12.72vh 6.67vw;
+    }
+
+    .stills-second {
+        display: none;
+    }
+
+    .stills-film {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .stills-film h1 {
+        margin: 9.07vh 0 0 8.06vw;
+    }
+
+    .stills {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 4.16vh 0 0 0vw;
+    }
+
+    .stills-image {
+        width: 70.66vw;
+        height: 20.46vh;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .stills-image img {
+        width: 100%;
+        height: 100%;
+        min-width: auto;
+        min-height: auto;
+        position: absolute;
+        display: block;
+    }
+
+    .stills-left {
+        width: 2.04vw;
+        height: 6.7vh;
+        margin: 0 2vw 0 0;
+    }
+
+    .stills-left img {
+        width: 2.04vw;
+        height: 6.7vh;
+    }
+
+    .stills-right {
+        width: 2.04vw;
+        height: 6.7vh;
+        margin: 0 0 0 2vw;
+    }
+
+    .stills-right img {
+        width: 2.04vw;
+        height: 6.7vh;
+    }
+
+    .movie-title {
+        margin: 4.16vh 0 0 8.06vw;
+    }
+
+    .poster {
+        margin: 3.27vh 0 0 8.06vw;
+    }
+}
+
+@media (min-width: 361px) {
+    .movie {
+        flex-direction: column;
+        margin: 0 0 0 0;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .movie-title {
+        width: 41.04vw;
+        height: 15.93vh;
+        margin: 12.87vh 0 0 42.08vw;
+    }
+
+    .poster {
+        margin: -14vh 0 0 16.82vw;
+    }
+    .movie-about-film {
+        width: 9.22vw;
+        height: 4.54vh;
+        margin: 6.39vh 0 0 0;
+    }
+
+    .genre {
+        display: flex;
+        flex-direction: row;
+        margin: 6.02vh 0 0 0;
+    }
+
+    .genre-title {
+        display: flex;
+        align-items: center;
+        color: #A9A9A9;
+        width: 3.54vw;
+        height: 2.96vh;
+    }
+
+    .genre-info {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 16.98vw;
+    }
+
+    .country {
+        display: flex;
+        flex-direction: row;
+        margin: 3.24vh 0 0 0;
+    }
+
+    .country-title {
+        display: flex;
+        align-items: center;
+        color: #A9A9A9;
+        width: 13.7vw;
+        height: 2.96vh;
+    }
+
+    .country-info {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 6.82vw;
+    }
+
+    .actor {
+        display: flex;
+        flex-direction: row;
+        margin: 3.24vh 0 0 0;
+    }
+
+    .actor-title {
+        display: flex;
+        align-items: center;
+        color: #A9A9A9;
+        width: 4.84vw;
+        height: 2.96vh;
+    }
+
+    .actor-info {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 15.68vw;
+        width: 28.44vw;
+        height: 5.93vh;
+    }
+
+    .directors {
+        display: flex;
+        flex-direction: row;
+        margin: 3.24vh 0 0 0;
+    }
+
+    .directors-title {
+        display: flex;
+        align-items: center;
+        color: #A9A9A9;
+        width: 7.34vw;
+        height: 2.96vh;
+    }
+
+    .directors-info {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 13.18vw;
+    }
+
+    .release {
+        display: flex;
+        flex-direction: row;
+        margin: 3.24vh 0 0 0;
+    }
+
+    .release-title {
+        display: flex;
+        align-items: center;
+        color: #A9A9A9;
+        width: 7.76vw;
+        height: 2.96vh;
+    }
+
+    .release-info {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 12.76vw;
+    }
+
+    .age {
+        display: flex;
+        flex-direction: row;
+        margin: 3.24vh 0 0 0;
+    }
+
+    .age-title {
+        display: flex;
+        align-items: center;
+        color: #A9A9A9;
+        width: 15.73vw;
+        height: 2.96vh;
+    }
+
+    .age-info {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 4.79vw;
+    }
+
+    .movie-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 6.61vw;
+    }
+
+    .trailer {
+        display: flex;
+        flex-direction: column;
+        margin: 17.69vh 0 0 16.67vw;
+    }
+
+    iframe {
+        width: 66.67vw;
+        height: 66.67vh;
+    }
+
+    video {
+        width: 66.67vw;
+        height: 66.67vh;
+    }
+
+
+    .reviews-film {
+        display: flex;
+        flex-direction: column;
+        width: 66.67vw;
+        margin: 9.81vh 0 0 16.67vw;
+    }
+
+    .reviews-catalog {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 6.94vh 0 0 0;
+    }
+
+    .reviews {
+        display: flex;
+        flex-direction: column;
+        width: 32.66vw;
+        height: 44.07vh;
+        background-color: #F2F2F2;
+    }
+
+    .reviews-autor {
+        display: flex;
+        margin: 4.63vh 0 0 2.4vw;
+    }
+
+    .star {
+        display: flex;
+        width: 1.77vw;
+        height: 3.15vh;
+        margin: 1.2vh 0 0 2.4vw;
+    }
+
+    .reviews-text {
+        display: flex;
+        width: 27.08vw;
+        height: 17.5vh;
+        margin: 4.44vh 0 0 2.4vw;
+    }
+
+    .stills-film {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+    .stills-film h1 {
+        margin: 9.07vh 0 0 16.67vw;
+    }
+
+    .stills {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .stills-image {
+        width: 32.66vw;
+        height: 44.07vh;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .stills-image img {
+        width: 100%;
+        height: 100%;
+        min-width: auto;
+        min-height: auto;
+        position: absolute;
+        display: block;
+    }
+
+    .stills-calage {
+        display: flex;
+        width: 66.67vw;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6.39vh 0 0 8.33vw;
+    }
+
+    .stills-left {
+        width: 1.04vw;
+        height: 3.7vh;
+        margin: 0 0 0 7.29vw;
+    }
+
+    .stills-right {
+        width: 1.04vw;
+        height: 3.7vh;
+        margin: 0 0 0 8.33vw;
+    }
+
+
+}
